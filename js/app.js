@@ -77,8 +77,8 @@ const updateTotal = () => {
   const grandTotal =
     getInputValue("price") + getInputValue("delivery-charge") +
     getInputValue("total-tax");
-    console.log(grandTotal);
+    // console.log(grandTotal);
   document.getElementById("total").innerText = grandTotal;
   return grandTotal
 };
-loadProducts();
+// loadProducts();
